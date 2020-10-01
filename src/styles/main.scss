@@ -455,7 +455,8 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    .rd_productDesc_blockImage{
+
+    .rd_productDesc_blockImage {
       line-height: 0;
       font-size: 0;
       margin-left: auto;
@@ -467,16 +468,19 @@ html {
       justify-content: center;
       align-items: center;
       width: 50%;
-      img{
+
+      img {
         max-width: 100%;
         height: auto;
         display: block;
         margin: 0 auto;
       }
     }
-    .rd_productDesc_blockText{
+
+    .rd_productDesc_blockText {
       width: 50%;
-      .rd_productDesc_blockText_title{
+
+      .rd_productDesc_blockText_title {
         font-size: 35px;
         word-break: break-word;
         //margin-bottom: .35em;
@@ -487,7 +491,8 @@ html {
         font-weight: 900;
         color: #383838;
       }
-      .rd_productDesc_blockText_desc{
+
+      .rd_productDesc_blockText_desc {
         font-family: 'Open Sans', sans-serif;
         font-weight: 300;
         line-height: 1.625;
@@ -495,7 +500,8 @@ html {
         margin-bottom: 29px;
         font-size: 18px;
       }
-      .rd_productDesc_blockText_desc2{
+
+      .rd_productDesc_blockText_desc2 {
         font-family: 'Open Sans', sans-serif;
         font-weight: 300;
         text-align: left;
@@ -506,14 +512,149 @@ html {
   }
 }
 
-.rightPadding18p{
+.rightPadding18p {
   padding-right: 18%;
 }
 
-.leftPadding18p{
+.leftPadding18p {
   padding-left: 18%;
 }
 
-.bottomPadding40{
+.bottomPadding40 {
   padding-bottom: 40px;
+}
+
+
+.rd_replies {
+  padding-top: 120px;
+  padding-bottom: 10px;
+  background-position: top;
+
+  .rd_replies_container {
+    max-width: 1114px;
+    margin: 0 auto;
+    width: 83%;
+    color: #ffffff;
+
+    .rd_replies_title {
+      margin-top: 148px;
+      text-align: center;
+      max-width: 732px;
+      margin-left: auto;
+      margin-right: auto;
+      z-index: 1;
+      position: relative;
+      margin-bottom: 10px;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 40px;
+      font-weight: 700;
+    }
+
+    .rd_replies_content {
+      padding-top: 3px;
+      margin: 0 -13px;
+
+      .rd_replies_content_block {
+        max-width: 50%;
+        width: 50%;
+        padding: 0 13px;
+        margin-top: 40px;
+        display: inline-block;
+        vertical-align: top;
+        height: auto;
+        margin-bottom: 42px;
+
+        .rd_replies_content_block_img {
+          padding-top: 0;
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+          padding-bottom: 56.39%;
+        }
+
+        .rd_replies_content_block_title {
+          line-height: 1.68;
+          color: rgb(255, 255, 255);
+          text-align: center;
+          margin-top: 38px;
+          margin-bottom: 35px;
+          font-family: 'Open Sans', Arial, sans-serif;
+          font-weight: bold;
+          font-style: normal;
+          font-size: 21px;
+          height: 75px;
+          padding: 0 10px;
+        }
+
+        .rd_replies_content_block_text {
+          text-align: right;
+          font-family: 'Open Sans', sans-serif;
+          font-weight: 100;
+          font-size: 16px;
+        }
+
+        .rd_replies_content_block_comp {
+          text-align: right;
+          font-size: 16px;
+          font-family: 'Open Sans', sans-serif;
+          font-weight: 700;
+          line-height: 1.625;
+        }
+      }
+    }
+  }
+}
+
+.rd_footer {
+  padding-bottom: 120px;
+  padding-top: 90px;
+  background: linear-gradient(90deg, #6898FF 0%, #A0D7FF 100%);
+
+  .rd_footer_cont {
+    max-width: 734px;
+    margin: 0 auto;
+    width: 83.333333%;
+    position: relative;
+    z-index: 1;
+
+    .rd_footer_phone {
+      text-align: center;
+      color: rgb(255, 255, 255);
+      font-family: 'Open Sans', sans-serif;
+      font-weight: bold;
+      font-style: normal;
+      line-height: 1.65;
+      font-size: 26px;
+    }
+
+    .rd_footer_email {
+      font-size: 26px;
+      text-align: center;
+      color: rgb(255, 255, 255);
+      font-family: 'Open Sans', sans-serif;
+      font-weight: bold;
+      font-style: normal;
+      line-height: 1.65;
+      margin-top: 20px;
+      margin-bottom: 82px;
+    }
+    .rd_footer_buttonWrapper {
+      display: flex;
+      justify-content: center;
+
+      .rd_footer_button {
+        color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #2ecc71;
+        border-radius: 50px;
+        height: 60px;
+        width: 225px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        font-size: 21px;
+      }
+    }
+  }
 }

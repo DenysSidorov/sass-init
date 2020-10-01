@@ -173,6 +173,54 @@ const Landing = () => {
         </div>
       </section>
 
+
+      <section className="rd_replies" style={{backgroundImage: "url('static-img/bg3.jpg')"}}>
+        <div className="rd_replies_container">
+          <h2 className="rd_replies_title">
+            We use RelationDesk!
+          </h2>
+          <div className="rd_replies_content">
+            <div className="rd_replies_content_block">
+              <div className="rd_replies_content_block_img" style={{backgroundImage: "url('static-img/airlines.png')"}}>
+              </div>
+              <div className="rd_replies_content_block_title">
+                ”RELATIONDESK IS EXACTLY WHAT WE NEED TO MANAGE ALL OUR CUSTOMERS ON FACEBOOK”
+              </div>
+              <div className="rd_replies_content_block_text">Johan Kristiansson</div>
+              <div className="rd_replies_content_block_text">Head of Digital Marketing</div>
+              <div className="rd_replies_content_block_comp">SAS Scandinavian Airlines</div>
+            </div>
+
+            <div className="rd_replies_content_block">
+              <div className="rd_replies_content_block_img" style={{backgroundImage: "url('static-img/swedbank.png')"}}>
+              </div>
+              <div className="rd_replies_content_block_title">
+                ”RELATIONDESK ENABLES US TO DELIVER
+
+                THE FINANCIAL WORLD'S TOP SOCIAL MEDIA CUSTOMER SERVICES.”
+              </div>
+              <div className="rd_replies_content_block_text">Thomas Brink</div>
+              <div className="rd_replies_content_block_text">Social Media Manager</div>
+              <div className="rd_replies_content_block_comp">Swedbank</div>
+            </div>
+
+          </div>
+        </div>
+
+      </section>
+
+      <section className="rd_footer">
+        <div className="rd_footer_cont">
+          <div className="rd_footer_phone">(+46) 010-1515 051</div>
+          <div className="rd_footer_email">Hi@RelationDesk.com</div>
+          <div className="rd_footer_buttonWrapper">
+            <div className="rd_footer_button">
+              BOOK DEMO
+            </div>
+          </div>
+        </div>
+      </section>
+
     </Fragment>
   )
 }
