@@ -14,11 +14,11 @@ const Landing = () => {
             <h2 className="rd_head__content_desc_sub1">Facebook, Customer Chat, Instagram & Twitter</h2>
             <h2 className="rd_head__content_desc_sub2">ONE platform for everything</h2>
           </div>
-          <div className="rd_head__content_buttonWrapper">
+          <a className="rd_head__content_buttonWrapper" href="https://www.retriever-info.com/product/social-media-management#wpcf7-f4778-p4771-o1">
             <div className="rd_head__content_button">
               BOOK DEMO
             </div>
-          </div>
+          </a>
         </div>
       </section>
       <section className="rd_allInOne">
@@ -69,7 +69,7 @@ const Landing = () => {
         </div>
         <div className="rd_tools_blocks">
 
-          <div className="rd_tools_block">
+          <a className="rd_tools_block" href="https://www.retriever-info.com/product/relationdesk-publish/">
             <div className="rd_tools_block_img">
               <img src="static-img/target.png"/>
             </div>
@@ -79,9 +79,9 @@ const Landing = () => {
             <div className="rd_tools_listItem">- Create, schedule & publish content</div>
             <div className="rd_tools_listItem">- Approve content from agencies</div>
             <span className="rd_tools_listLink">Read about Publish -></span>
-          </div>
+          </a>
 
-          <div className="rd_tools_block">
+          <a className="rd_tools_block" href="https://www.retriever-info.com/product/relationdesk-engage/">
             <div className="rd_tools_block_img">
               <img src="static-img/conversation.png"/>
             </div>
@@ -91,9 +91,9 @@ const Landing = () => {
             <div className="rd_tools_listItem">- Assign tickets to team members</div>
             <div className="rd_tools_listItem">- Add notes, tags and search everything</div>
             <span className="rd_tools_listLink">Read about Engage -></span>
-          </div>
+          </a>
 
-          <div className="rd_tools_block">
+          <a className="rd_tools_block" href="https://www.retriever-info.com/product/relationdesk-measure/">
             <div className="rd_tools_block_img">
               <img src="static-img/measure.png"/>
             </div>
@@ -103,14 +103,14 @@ const Landing = () => {
             <div className="rd_tools_listItem">- Measure each team member</div>
             <div className="rd_tools_listItem">- Measure KPI goals & always improve</div>
             <span className="rd_tools_listLink">Read about Measure -></span>
-          </div>
+          </a>
 
         </div>
       </section>
 
       <section className="rd_about">
         <p className="rd_about_based">Based in Sweden</p>
-        <p className="rd_about_link"><a href="d">About RelationDesk</a></p>
+        {/* <p className="rd_about_link"><a href="https://www.retriever-info.com/product/social-media-management#wpcf7-f4778-p4771-o1">About RelationDesk</a></p> */}
         <p className="rd_about_gdpr">GDPR compliance</p>
         <p className="rd_about_contact">Contact RelationDesk to request all information about GDPR compliance</p>
       </section>
@@ -123,9 +123,9 @@ const Landing = () => {
         </div>
       </section>
       <section className="rd_demoBtn">
-        <div className="rd_head__content_button">
+        <a className="rd_head__content_button" href="https://www.retriever-info.com/product/social-media-management#wpcf7-f4778-p4771-o1">
           BOOK DEMO
-        </div>
+        </a>
       </section>
       <section className="rd_productDesc">
         <div className="rd_productDesc_wrapper">
@@ -214,9 +214,9 @@ const Landing = () => {
           <div className="rd_footer_phone">(+46) 010-1515 051</div>
           <div className="rd_footer_email">Hi@RelationDesk.com</div>
           <div className="rd_footer_buttonWrapper">
-            <div className="rd_footer_button">
+            <a className="rd_footer_button" href="https://www.retriever-info.com/product/social-media-management#wpcf7-f4778-p4771-o1">
               BOOK DEMO
-            </div>
+            </a>
           </div>
         </div>
       </section>

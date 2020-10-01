@@ -256,7 +256,12 @@ html {
       width: 33.33333%;
       padding: 0 13px;
       display: inline-block;
-
+      cursor: pointer;
+      &:hover{
+        .rd_tools_listLink{
+          border-bottom: 1px transparent;
+        }
+      }
       .rd_tools_block_img {
         height: 200px;
         display: flex;
@@ -315,9 +320,9 @@ html {
         color: #245AB4;
         transition: all 0.7s ease;
 
-        &:hover {
-          border-bottom: 1px transparent;
-        }
+        //&:hover {
+        //  border-bottom: 1px transparent;
+        //}
       }
     }
   }
@@ -364,7 +369,8 @@ html {
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     font-size: 20px;
-    margin-top: 63px;
+    //margin-top: 63px;
+    margin-top: 40px;
     color: #6c6c6c;
   }
 
