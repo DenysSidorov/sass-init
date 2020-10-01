@@ -114,9 +114,65 @@ const Landing = () => {
         <p className="rd_about_gdpr">GDPR compliance</p>
         <p className="rd_about_contact">Contact RelationDesk to request all information about GDPR compliance</p>
       </section>
-      <section className="rd_companies" style={{backgroundImage: "url('static-img/inst.png')"}}>
-
+      <section className="rd_companies" style={{backgroundImage: "url('static-img/bg2.jpg')"}}>
+        <div className="rd_companies_cont">
+          <div className="rd_companies_title">We use RelationDesk!</div>
+          <div className="rd_companies_img">
+            <img src="static-img/companies.png"/>
+          </div>
+        </div>
       </section>
+      <section className="rd_demoBtn">
+        <div className="rd_head__content_button">
+          BOOK DEMO
+        </div>
+      </section>
+      <section className="rd_productDesc">
+        <div className="rd_productDesc_wrapper">
+          <div className="rd_productDesc_blockImage">
+            <img src="static-img/all.png"/>
+          </div>
+          <div className="rd_productDesc_blockText">
+            <h2 className="rd_productDesc_blockText_title leftPadding18p">ALL YOUR MESSAGES</h2>
+            <p className="rd_productDesc_blockText_desc leftPadding18p">All messages from Facebook pages, Twitter
+              accounts and
+              Instagram
+              accounts. Messages instantly shows up in RelationDesk.</p>
+            <p className="rd_productDesc_blockText_desc2 leftPadding18p">Manage them all in one place.</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="rd_productDesc">
+        <div className="rd_productDesc_wrapper">
+          <div className="rd_productDesc_blockText">
+            <h2 className="rd_productDesc_blockText_title rightPadding18p">ALL YOUR CUSTOMERS</h2>
+            <p className="rd_productDesc_blockText_desc rightPadding18p">Answer all your customers from RelationDesk.
+              Work alone or in
+              large teams.</p>
+            <p className="rd_productDesc_blockText_desc2 rightPadding18p">And easily invite experts to help compose
+              great answers.</p>
+          </div>
+          <div className="rd_productDesc_blockImage">
+            <img src="static-img/rd.png"/>
+          </div>
+        </div>
+      </section>
+
+
+      <section className="rd_productDesc bottomPadding40">
+        <div className="rd_productDesc_wrapper">
+          <div className="rd_productDesc_blockImage">
+            <img src="static-img/measure-all.png"/>
+          </div>
+          <div className="rd_productDesc_blockText">
+            <h2 className="rd_productDesc_blockText_title leftPadding18p">GREAT ANALYTICS</h2>
+            <p className="rd_productDesc_blockText_desc leftPadding18p">Know why your team is winning in social media –
+              and how to always improve.</p>
+          </div>
+        </div>
+      </section>
+
     </Fragment>
   )
 }

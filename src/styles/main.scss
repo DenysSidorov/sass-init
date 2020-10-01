@@ -168,6 +168,7 @@ html {
   max-width: 1114px;
   margin: 0 auto;
   width: 83%;
+
   .rd_allInOne_title {
     margin-bottom: 60px;
     line-height: 1.25;
@@ -216,6 +217,7 @@ html {
   max-width: 1114px;
   margin: 0 auto;
   width: 83%;
+
   .rd_tools_title {
     //margin-bottom: 60px;
     line-height: 1.25;
@@ -239,7 +241,8 @@ html {
         height: 200px;
         display: flex;
         justify-content: center;
-        img{
+
+        img {
           height: 100%;
           margin: 0 auto;
         }
@@ -291,14 +294,16 @@ html {
         cursor: pointer;
         color: #245AB4;
         transition: all 0.3s ease;
-        &:hover{
-          border-bottom: none!important;
+
+        &:hover {
+          border-bottom: none !important;
         }
       }
     }
   }
 }
-.rd_about{
+
+.rd_about {
   padding-top: 120px;
   padding-bottom: 20px;
   max-width: 734px;
@@ -306,27 +311,31 @@ html {
   width: 83.333333%;
   position: relative;
   z-index: 1;
-  .rd_about_based{
+
+  .rd_about_based {
     font-weight: 700;
     color: rgb(110, 110, 110);
     font-size: 32px;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
   }
-  .rd_about_link{
+
+  .rd_about_link {
     margin-top: 20px;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     padding-top: 18px;
     font-size: 17px;
-    a{
+
+    a {
       color: #6c6c6c;
       cursor: pointer;
       text-decoration: none;
       border-bottom: 1px solid;
     }
   }
-  .rd_about_gdpr{
+
+  .rd_about_gdpr {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
@@ -334,7 +343,8 @@ html {
     margin-top: 63px;
     color: #6c6c6c;
   }
-  .rd_about_contact{
+
+  .rd_about_contact {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     margin-top: 20px;
@@ -342,4 +352,168 @@ html {
     color: #6c6c6c;
     margin-bottom: 50px;
   }
+}
+
+.rd_companies {
+  background-position: top;
+  background-size: cover;
+  height: 455px;
+  padding-top: 110px;
+  //background-position: 50% 50%;
+  background-repeat: no-repeat;
+
+  .rd_companies_cont {
+    max-width: 1114px;
+    margin: 0 auto;
+    width: 83.333333%;
+    position: relative;
+    z-index: 1;
+
+    .rd_companies_title {
+      display: block;
+      text-align: center;
+      max-width: 734px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 50px;
+      height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Open Sans', sans-serif;
+      font-style: normal;
+      color: rgb(255, 255, 255);
+      font-weight: 700;
+      font-size: 26px;
+    }
+
+    .rd_companies_img {
+      margin-top: 60px;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      max-width: 100%;
+      position: relative;
+
+      img {
+        //opacity: 0;
+        max-width: 100%;
+        width: 100%;
+        transition: opacity .5s;
+      }
+    }
+  }
+}
+
+//.cont{
+//  max-width: 1114px;
+//  margin: 0 auto;
+//  width: 83.333333%;
+//  position: relative;
+//  z-index: 1;
+//}
+
+.rd_demoBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 170px;
+  max-width: 734px;
+  margin: 0 auto;
+  width: 83.333333%;
+  position: relative;
+  z-index: 1;
+
+  .rd_head__content_button {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2ecc71;
+    border-radius: 50px;
+    height: 60px;
+    width: 225px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 21px;
+  }
+}
+
+.rd_productDesc {
+  padding-bottom: 10px;
+  padding-top: 30px;
+  //min-height: 395px;
+
+  .rd_productDesc_wrapper {
+    max-width: 1114px;
+    margin: 0 auto;
+    width: 83.333333%;
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+    max-width: 1114px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .rd_productDesc_blockImage{
+      line-height: 0;
+      font-size: 0;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      max-width: 100%;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 50%;
+      img{
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+      }
+    }
+    .rd_productDesc_blockText{
+      width: 50%;
+      .rd_productDesc_blockText_title{
+        font-size: 35px;
+        word-break: break-word;
+        //margin-bottom: .35em;
+        //font-weight: 400;
+        margin-bottom: 14px;
+        color: #383838;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 900;
+        color: #383838;
+      }
+      .rd_productDesc_blockText_desc{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+        line-height: 1.625;
+        text-align: left;
+        margin-bottom: 29px;
+        font-size: 18px;
+      }
+      .rd_productDesc_blockText_desc2{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+        text-align: left;
+        font-size: 18px;
+        line-height: 1.625;
+      }
+    }
+  }
+}
+
+.rightPadding18p{
+  padding-right: 18%;
+}
+
+.leftPadding18p{
+  padding-left: 18%;
+}
+
+.bottomPadding40{
+  padding-bottom: 40px;
 }
