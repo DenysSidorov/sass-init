@@ -313,10 +313,10 @@ html {
         border-bottom: 1px solid;
         cursor: pointer;
         color: #245AB4;
-        transition: all 0.3s ease;
+        transition: all 0.7s ease;
 
         &:hover {
-          border-bottom: none !important;
+          border-bottom: 1px transparent;
         }
       }
     }
@@ -348,10 +348,14 @@ html {
     font-size: 17px;
 
     a {
+      transition: all 0.7s ease;
       color: #6c6c6c;
       cursor: pointer;
       text-decoration: none;
       border-bottom: 1px solid;
+      &:hover {
+        border-bottom: 1px transparent;
+      }
     }
   }
 
