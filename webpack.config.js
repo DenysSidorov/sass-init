@@ -24,6 +24,7 @@ function getConfig(env = {}) {
     entry: {
       main: ['webpack-dev-server/client'], // for dev mode
       app: ['babel-polyfill', 'formdata-polyfill', './app'], // entry point
+      app2: ['./js/index.js'], // entry point
       common_css: [
         './styles/main',
         './styles/reset',
