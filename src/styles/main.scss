@@ -66,7 +66,7 @@ html {
 //@media screen and (max-width: 767px) {}
 
 #main {
-  max-width: 1920px;
+  //max-width: 1920px;
   margin: 0 auto;
 }
 
@@ -166,7 +166,7 @@ body.load {
 
 .rd_head {
   display: flex;
-  max-width: 1920px;
+  //max-width: 1920px;
   margin: 0 auto;
   z-index: 2;
   position: relative;
@@ -656,7 +656,7 @@ body.load {
   padding-top: 120px;
   padding-bottom: 10px;
   background-position: top;
-
+  background-size: cover;
   .rd_replies_container {
     max-width: 1114px;
     margin: 0 auto;
