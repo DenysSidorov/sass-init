@@ -293,6 +293,7 @@ body.load {
         height: 200px;
         display: flex;
         justify-content: center;
+        overflow: hidden;
 
         img {
           height: 100%;
@@ -634,7 +635,7 @@ body.load {
       margin: 0 -13px;
 
       .rd_replies_content_block {
-        max-width: 50%;
+        //max-width: 50%;
         width: 50%;
         padding: 0 13px;
         margin-top: 40px;
@@ -782,6 +783,102 @@ body.load {
 
       .rd_head__content_desc_sub2 {
         font-size: 21px !important;
+      }
+    }
+  }
+  .rd_allInOne {
+    .rd_allInOne_title {
+      font-size: 35px !important;
+    }
+
+    .rd_allInOne_blocks {
+      .rd_allInOne_block {
+        width: 100% !important;
+
+        .rd_allInOne_block_img {
+          background-size: contain !important;
+        }
+
+        .rd_allInOne_block_desc {
+          text-align: center;
+        }
+      }
+    }
+  }
+  .rd_tools {
+    .rd_tools_title {
+      font-size: 35px !important;
+    }
+
+    .rd_tools_blocks {
+      .rd_tools_block {
+        width: 100% !important;
+      }
+
+      .rd_tools_listTitle {
+        text-align: center;
+      }
+
+      .rd_tools_listItem {
+        text-align: center;
+      }
+
+      .rd_tools_listLink {
+        display: block !important;
+        text-align: center;
+        border-bottom: none !important;
+        text-decoration: underline;
+      }
+    }
+  }
+  .rd_productDesc {
+    .rd_productDesc_wrapper {
+      flex-wrap: wrap;
+
+      .rd_productDesc_blockImage {
+        width: 100% !important;
+      }
+
+      .rd_productDesc_blockText {
+        width: 100% !important;
+
+        .rd_productDesc_blockText_title {
+          font-size: 24px !important;
+          padding-left: 0;
+          padding-right: 0;
+          text-align: center;
+        }
+
+        .rd_productDesc_blockText_desc {
+          font-size: 16px !important;
+          padding-left: 0;
+          padding-right: 0;
+          text-align: center;
+        }
+
+        .rd_productDesc_blockText_desc2 {
+          font-size: 16px !important;
+          padding-left: 0;
+          padding-right: 0;
+          text-align: center;
+        }
+      }
+    }
+  }
+  .rd_replies{
+    .rd_replies_container{
+      .rd_replies_title{
+        font-size: 28px !important;
+      }
+      .rd_replies_content{
+        display: flex!important;
+        flex-wrap: wrap;
+        .rd_replies_content_block{
+          width: 100%!important;
+          .rd_replies_content_block_img{
+            padding-bottom: 25%!important;
+          }
+        }
       }
     }
   }
