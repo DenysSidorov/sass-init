@@ -974,3 +974,14 @@ body.load {
     }
   }
 }
+
+@media screen and (max-width: 568px) {
+  .rd_menu_right {
+    min-width: 50%;
+    justify-content: center !important;
+
+    .rd_menu_btn {
+      display: none !important;
+    }
+  }
+}
