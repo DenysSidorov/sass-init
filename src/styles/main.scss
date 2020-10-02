@@ -75,15 +75,22 @@ html {
   clear: both;
 }
 
-@media screen and (max-width: 1024px) {
-}
-
-@media screen and (max-width: 767px) {
-}
+//@media screen and (max-width: 1024px) {}
+//
+//@media screen and (max-width: 767px) {}
 
 #main {
   max-width: 1920px;
   margin: 0 auto;
+}
+
+body {
+  opacity: 0;
+  transition: opacity 0.7s ease-in;
+}
+
+body.load {
+  opacity: 1;
 }
 
 .rd_head {
@@ -160,6 +167,7 @@ html {
         font-size: 21px;
         position: relative;
         cursor: pointer;
+
         &:before {
           content: "";
           position: absolute;
@@ -220,10 +228,13 @@ html {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 
     .rd_allInOne_block {
       width: 259px;
       padding: 0 13px;
+      flex-shrink: 0;
+      margin-bottom: 30px;
 
       .rd_allInOne_block_img {
         height: 145px;
@@ -246,7 +257,7 @@ html {
 }
 
 .rd_tools {
-  padding-top: 60px;
+  padding-top: 30px;
   max-width: 1114px;
   margin: 0 auto;
   width: 83%;
@@ -270,11 +281,14 @@ html {
       padding: 0 13px;
       display: inline-block;
       cursor: pointer;
-      &:hover{
-        .rd_tools_listLink{
+      min-width: 270px;
+
+      &:hover {
+        .rd_tools_listLink {
           border-bottom: 1px transparent;
         }
       }
+
       .rd_tools_block_img {
         height: 200px;
         display: flex;
@@ -371,6 +385,7 @@ html {
       cursor: pointer;
       text-decoration: none;
       border-bottom: 1px solid;
+
       &:hover {
         border-bottom: 1px transparent;
       }
@@ -481,6 +496,7 @@ html {
     font-size: 21px;
     position: relative;
     cursor: pointer;
+
     &:before {
       content: "";
       position: absolute;
@@ -645,7 +661,7 @@ html {
           font-weight: bold;
           font-style: normal;
           font-size: 21px;
-          height: 75px;
+          min-height: 105px;
           padding: 0 10px;
         }
 
@@ -720,6 +736,7 @@ html {
         font-size: 21px;
         position: relative;
         cursor: pointer;
+
         &:before {
           content: "";
           position: absolute;
@@ -743,11 +760,29 @@ html {
   }
 }
 
-
-body{
-  opacity: 0;
-  transition: opacity 0.7s ease-in;
+@media screen and (max-width: 1024px) {
 }
-body.load{
-  opacity: 1;
+
+@media screen and (max-width: 767px) {
+  .rd_head__content {
+    .rd_head__content_title {
+      .rd_head__content_title_sub1 {
+        font-size: 32px !important;
+      }
+
+      .rd_head__content_title_sub2 {
+        font-size: 30px !important;
+      }
+    }
+
+    .rd_head__content_desc {
+      .rd_head__content_desc_sub1 {
+        font-size: 19px !important;
+      }
+
+      .rd_head__content_desc_sub2 {
+        font-size: 21px !important;
+      }
+    }
+  }
 }
