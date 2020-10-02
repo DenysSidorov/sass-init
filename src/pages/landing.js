@@ -3,7 +3,23 @@ import React, {Fragment} from 'react';
 const Landing = () => {
   return (
     <Fragment>
-      <section className="rd_head" style={{backgroundImage: "url('static-img/welcome.jpg')"}}>
+
+      <nav className="rd_menu">
+        <div className="rd_menu_left">
+          <a href="/" className="rd_menu_logoLink">
+            <img src="static-img/logo.png" alt="relationdesk.com"/>
+          </a>
+        </div>
+        <div className="rd_menu_right">
+          <a className="rd_menu_link" href="https://service.relationdesk.com/user/auth">Log in</a>
+          <a className="rd_menu_btn"
+             href="https://www.retriever-info.com/product/social-media-management#wpcf7-f4778-p4771-o1">
+            BOOK DEMO
+          </a>
+        </div>
+      </nav>
+
+      <section className="rd_head" style={{backgroundImage: "url('static-img/welcome2.jpg')"}}>
         <div className="rd_head__content">
           <h3 className="rd_head__content_title">
 
@@ -14,7 +30,8 @@ const Landing = () => {
             <h2 className="rd_head__content_desc_sub1">Facebook, Customer Chat, Instagram & Twitter</h2>
             <h2 className="rd_head__content_desc_sub2">ONE platform for everything</h2>
           </div>
-          <a className="rd_head__content_buttonWrapper" href="https://www.retriever-info.com/product/social-media-management#wpcf7-f4778-p4771-o1">
+          <a className="rd_head__content_buttonWrapper"
+             href="https://www.retriever-info.com/product/social-media-management#wpcf7-f4778-p4771-o1">
             <div className="rd_head__content_button">
               BOOK DEMO
             </div>
@@ -123,7 +140,8 @@ const Landing = () => {
         </div>
       </section>
       <section className="rd_demoBtn">
-        <a className="rd_head__content_button" href="https://www.retriever-info.com/product/social-media-management#wpcf7-f4778-p4771-o1">
+        <a className="rd_head__content_button"
+           href="https://www.retriever-info.com/product/social-media-management#wpcf7-f4778-p4771-o1">
           BOOK DEMO
         </a>
       </section>
@@ -214,7 +232,8 @@ const Landing = () => {
           <div className="rd_footer_phone">(+46) 010-1515 051</div>
           <div className="rd_footer_email">Hi@RelationDesk.com</div>
           <div className="rd_footer_buttonWrapper">
-            <a className="rd_footer_button" href="https://www.retriever-info.com/product/social-media-management#wpcf7-f4778-p4771-o1">
+            <a className="rd_footer_button"
+               href="https://www.retriever-info.com/product/social-media-management#wpcf7-f4778-p4771-o1">
               BOOK DEMO
             </a>
           </div>

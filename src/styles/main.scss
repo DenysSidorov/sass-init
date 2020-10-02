@@ -93,6 +93,82 @@ body.load {
   opacity: 1;
 }
 
+.rd_menu {
+  padding: 0 26px;
+  height: 62px;
+  background-color: #6797FE;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .rd_menu_left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    .rd_menu_logoLink {
+      img {
+        height: 25px;
+      }
+    }
+  }
+
+  .rd_menu_right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    .rd_menu_link {
+      display: inline-block;
+      font-family: Helvetica Neue, Helvetica, 'Open Sans', sans-serif;
+      font-size: 16px;
+      color: #ffffff;
+      transition: all 0.3s ease;
+
+      &:hover {
+        color: rgba(50, 204, 108, 0.86);
+        color: #dedede;
+      }
+    }
+
+    .rd_menu_btn {
+      margin-left: 26px;
+      color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #2ecc71;
+      border-radius: 50px;
+      height: 42px;
+      width: 200px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 600;
+      font-size: 16px;
+      position: relative;
+      cursor: pointer;
+
+      &:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        transition: opacity .35s;
+        opacity: 0;
+        border-radius: inherit;
+        background: linear-gradient(to bottom, rgba(0, 0, 0, .2) 0%, rgba(255, 255, 255, 1) 100%);
+      }
+
+      &:hover {
+        &:before {
+          opacity: 0.2 !important;
+        }
+      }
+    }
+  }
+}
+
 .rd_head {
   display: flex;
   max-width: 1920px;
@@ -865,18 +941,21 @@ body.load {
       }
     }
   }
-  .rd_replies{
-    .rd_replies_container{
-      .rd_replies_title{
+  .rd_replies {
+    .rd_replies_container {
+      .rd_replies_title {
         font-size: 28px !important;
       }
-      .rd_replies_content{
-        display: flex!important;
+
+      .rd_replies_content {
+        display: flex !important;
         flex-wrap: wrap;
-        .rd_replies_content_block{
-          width: 100%!important;
-          .rd_replies_content_block_img{
-            padding-bottom: 25%!important;
+
+        .rd_replies_content_block {
+          width: 100% !important;
+
+          .rd_replies_content_block_img {
+            padding-bottom: 25% !important;
           }
         }
       }
