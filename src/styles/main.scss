@@ -1,5 +1,5 @@
-@import "variables";
-@import "fonts";
+//@import "variables";
+//@import "fonts";
 
 body {
   font-family: Helvetica, Arial, sans-serif;
@@ -9,25 +9,11 @@ body {
   background-color: transparent;
   height: 100%;
   overflow-y: auto;
-  //@keyframes fadeInAnimation {
-  //  0% {
-  //    opacity: 0;
-  //  }
-  //  100% {
-  //    opacity: 1;
-  //  }
-  //}
-  ////animation: fadeInAnimation ease 3s;
-  ////animation-iteration-count: 1;
-  ////animation-fill-mode: forwards;
-  ////animation: fadeInAnimation 3s linear infinite;
-  //animation: fadeInAnimation 3s linear infinite;
 }
 
 html {
   font-size: 62.5%;
   background-color: #ffffff;
-  //font-family: Arial;
 }
 
 .left {
@@ -99,13 +85,10 @@ body.load {
 
 .rd_menu {
   position: fixed;
-  //transition-delay: 0.4s;
   transition: all 0.4s ease;
   z-index: 100;
   width: 100%;
-
   top: 0;
-
   padding: 0 26px;
   height: 62px;
   background-color: #6797FE;
@@ -284,12 +267,9 @@ body.load {
   background-color: #ffffff;
   padding-top: 60px;
   display: flex;
-  //max-width: 1920px;
   margin: 0 auto;
   z-index: 2;
   position: relative;
-  //width: 100%;
-  //min-height: 450px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -337,7 +317,6 @@ body.load {
         color: #6c6c6c;
         font-family: 'Open Sans', sans-serif;
         font-weight: 100;
-        //text-align: center;
         font-size: 17px;
       }
     }
@@ -351,7 +330,6 @@ body.load {
   width: 83%;
 
   .rd_tools_title {
-    //margin-bottom: 60px;
     line-height: 1.25;
     color: #383838;
     text-align: center;
@@ -365,7 +343,8 @@ body.load {
 
   .rd_tools_blocks {
     .rd_tools_block {
-      width: 33.33333%;
+      //width: 33.33333%;
+      width: 33%;
       padding: 0 13px;
       display: inline-block;
       cursor: pointer;
@@ -390,7 +369,6 @@ body.load {
       }
 
       .rd_tools_blockTitle {
-        //margin-bottom: 45px;
         margin-top: 38px;
         color: #6c6c6c;
         font-family: 'Open Sans', sans-serif;
@@ -429,16 +407,11 @@ body.load {
         font-family: 'Open Sans', sans-serif;
         font-weight: 100;
         font-size: 19px;
-        //text-decoration: underline;
         display: inline-block;
         border-bottom: 1px solid;
         cursor: pointer;
         color: #245AB4;
         transition: all 0.7s ease;
-
-        //&:hover {
-        //  border-bottom: 1px transparent;
-        //}
       }
     }
   }
@@ -486,7 +459,6 @@ body.load {
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     font-size: 20px;
-    //margin-top: 63px;
     margin-top: 40px;
     color: #6c6c6c;
   }
@@ -506,7 +478,6 @@ body.load {
   background-size: cover;
   height: 455px;
   padding-top: 110px;
-  //background-position: 50% 50%;
   background-repeat: no-repeat;
 
   .rd_companies_cont {
@@ -543,7 +514,6 @@ body.load {
       position: relative;
 
       img {
-        //opacity: 0;
         max-width: 100%;
         width: 100%;
         transition: opacity .5s;
@@ -551,14 +521,6 @@ body.load {
     }
   }
 }
-
-//.cont{
-//  max-width: 1114px;
-//  margin: 0 auto;
-//  width: 83.333333%;
-//  position: relative;
-//  z-index: 1;
-//}
 
 .rd_demoBtn {
   display: flex;
@@ -610,7 +572,6 @@ body.load {
 .rd_productDesc {
   padding-bottom: 10px;
   padding-top: 30px;
-  //min-height: 395px;
 
   .rd_productDesc_wrapper {
     max-width: 1114px;
@@ -651,8 +612,6 @@ body.load {
       .rd_productDesc_blockText_title {
         font-size: 35px;
         word-break: break-word;
-        //margin-bottom: .35em;
-        //font-weight: 400;
         margin-bottom: 14px;
         color: #383838;
         font-family: 'Open Sans', sans-serif;
@@ -723,8 +682,7 @@ body.load {
       margin: 0 -13px;
 
       .rd_replies_content_block {
-        //max-width: 50%;
-        width: 50%;
+        width: 49.7%;
         padding: 0 13px;
         margin-top: 40px;
         display: inline-block;

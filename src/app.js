@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './pages/landing';
 
-const container = document.getElementById('main');
+const container = document.getElementById('main-TEMP/TEST');
 
 if (container) {
   ReactDOM.render(<App/>, container);

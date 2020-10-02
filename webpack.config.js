@@ -23,12 +23,12 @@ function getConfig(env = {}) {
     context: path.resolve(__dirname, './src'),
     entry: {
       main: ['webpack-dev-server/client'], // for dev mode
-      app: ['babel-polyfill', 'formdata-polyfill', './app'], // entry point
-      app2: ['./js/index.js'], // entry point
+      // app: ['babel-polyfill', 'formdata-polyfill', './app'], // entry point
+      app2: ['babel-polyfill', './js/index.js'], // entry point
       common_css: [
         './styles/main',
         './styles/reset',
-        './styles/helpers/font-awesome.less'
+        // './styles/helpers/font-awesome.less'
       ] // global styles sets
     },
     output: {
@@ -57,9 +57,9 @@ function getConfig(env = {}) {
           use: [
             {
               loader: 'url-loader',
-              options: {
-                limit: 65000
-              } // Convert images < 65k to base64 strings
+              // options: {
+              //   limit: 65000
+              // } // Convert images < 65k to base64 strings
             }
           ]
         },
@@ -137,10 +137,10 @@ function getConfig(env = {}) {
         filename: '[name].bundle.[contenthash].css',
         allChunks: true
       }),
-      new AssetsPlugin({
-        filename: 'assets.json',
-        path: `${__dirname}/www/assets`
-      }),
+      // new AssetsPlugin({
+      //   filename: 'assets.json',
+      //   path: `${__dirname}/www/assets`
+      // }),
       new HtmlWebpackPlugin({
         template: path.resolve(__dirname, 'www/template.html'),
         filename: '../index.html',
