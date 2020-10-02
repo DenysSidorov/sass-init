@@ -93,7 +93,19 @@ body.load {
   opacity: 1;
 }
 
+.rd_menu.hide {
+  top: -62px;
+}
+
 .rd_menu {
+  position: fixed;
+  //transition-delay: 0.4s;
+  transition: all 0.4s ease;
+  z-index: 100;
+  width: 100%;
+
+  top: 0;
+
   padding: 0 26px;
   height: 62px;
   background-color: #6797FE;

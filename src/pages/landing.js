@@ -4,7 +4,7 @@ const Landing = () => {
   return (
     <Fragment>
 
-      <nav className="rd_menu">
+      <nav className="rd_menu" id="rd_menu">
         <div className="rd_menu_left">
           <a href="/" className="rd_menu_logoLink">
             <img src="static-img/logo.png" alt="relationdesk.com"/>
@@ -19,7 +19,7 @@ const Landing = () => {
         </div>
       </nav>
 
-      <section className="rd_head" style={{backgroundImage: "url('static-img/welcome2.jpg')"}}>
+      <section className="rd_head" id="rd_head" style={{backgroundImage: "url('static-img/welcome.jpg')"}}>
         <div className="rd_head__content">
           <h3 className="rd_head__content_title">
 
