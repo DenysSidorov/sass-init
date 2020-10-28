@@ -38,7 +38,7 @@ function getConfig(env = {}) {
       publicPath: inProduction === 'production' ? '/assets/' : '/assets/' // for dev-mode
     },
     devServer: {
-      historyApiFallback: true,
+      // historyApiFallback: true,
       // https: true,
       hot: true,
       // host: env.hostname ? env.hostname : 'Error reason in host name',
@@ -122,7 +122,8 @@ function getConfig(env = {}) {
     plugins: [
       // new CleanWebpackPlugin(['./www/rd2hash/assets/*.*']), // clean folder before  every bundling
       new CleanWebpackPlugin(['./www/assets/*.*']), // clean folder before  every bundling
-      new CleanWebpackPlugin(['./www/index.html']), // clean file before every bundling
+      new CleanWebpackPlugin(['./www/index.html', './www/dpa.html', './www/terms.html']), // clean file before every bundling
+      // new CleanWebpackPlugin(['./www/dpa.html']), // clean file before every bundling
       // new CleanWebpackPlugin(['./www/rd2hash/index.html']), // clean file before every bundling
       new webpack.NoEmitOnErrorsPlugin(),
       new webpack.HotModuleReplacementPlugin(),
@@ -144,6 +145,20 @@ function getConfig(env = {}) {
       new HtmlWebpackPlugin({
         template: path.resolve(__dirname, 'www/template.html'),
         filename: '../index.html',
+        minify: false,
+        alwaysWriteToDisk: true,
+        excludeAssets: [/main.bundle.*.js/, /common_css.bundle.*.js/]
+      }),
+      new HtmlWebpackPlugin({
+        template: path.resolve(__dirname, 'www/template-dpa.html'),
+        filename: '../dpa.html',
+        minify: false,
+        alwaysWriteToDisk: true,
+        excludeAssets: [/main.bundle.*.js/, /common_css.bundle.*.js/]
+      }),
+      new HtmlWebpackPlugin({
+        template: path.resolve(__dirname, 'www/template-terms.html'),
+        filename: '../terms.html',
         minify: false,
         alwaysWriteToDisk: true,
         excludeAssets: [/main.bundle.*.js/, /common_css.bundle.*.js/]

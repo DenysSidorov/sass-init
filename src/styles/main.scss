@@ -657,6 +657,7 @@ body.load {
   padding-bottom: 10px;
   background-position: top;
   background-size: cover;
+
   .rd_replies_container {
     max-width: 1114px;
     margin: 0 auto;
@@ -931,6 +932,16 @@ body.load {
       }
     }
   }
+  .rd_terms_head__content_container {
+    h3 {
+      font-size: 26px !important;
+    }
+  }
+  .rd_dpa_head__content_container {
+    h3 {
+      font-size: 26px !important;
+    }
+  }
 }
 
 @media screen and (max-width: 568px) {
@@ -940,6 +951,203 @@ body.load {
 
     .rd_menu_btn {
       display: none !important;
+    }
+  }
+}
+
+
+// dpa page
+
+.rd_dpa_head {
+  display: flex;
+  //max-width: 1920px;
+  margin: 0 auto;
+  z-index: 2;
+  position: relative;
+  width: 100%;
+  height: 415px;
+  //min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .rd_dpa_head__content {
+    max-width: 1140px;
+    margin: 0 auto;
+    width: 83%;
+
+    .rd_dpa_head__content_container {
+      h3 {
+        font-weight: 700;
+        font-size: 48px;
+        color: white;
+        margin-top: 50px;
+      }
+    }
+  }
+}
+
+.rd_dpa_content {
+  max-width: 1114px;
+  margin: 0 auto;
+  padding: 0 10px;
+  width: 83%;
+}
+
+.rd_dpa_content_title1 {
+  margin-top: 40px;
+  color: #6c6c6c;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 31px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.rd_dpa_content_title2 {
+  margin-top: 40px;
+  color: #6c6c6c;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 23px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.rd_dpa_content_p {
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 8px;
+  font-size: 15px;
+  color: #6c6c6c;
+}
+
+.rd_dpa_content_link {
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 8px;
+  font-size: 15px;
+  color: #6c6c6c;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.rd_dpa_content_p_bold {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  color: #6c6c6c;
+  font-weight: 700;
+  margin-bottom: 3px;
+
+}
+
+.rd_dpa_preFooter {
+  background-position: top;
+  background-size: cover;
+  height: 430px;
+  padding-top: 110px;
+  background-repeat: no-repeat;
+
+  .rd_dpa_preFooter_cont {
+    max-width: 1114px;
+    margin: 0 auto;
+    width: 83.333333%;
+    position: relative;
+    z-index: 1;
+
+    .rd_dpa_preFooter_cont_img {
+      //height: 200px;
+      display: flex;
+      justify-content: center;
+      overflow: hidden;
+
+      img {
+        height: 100%;
+        margin: 0 auto;
+      }
+    }
+  }
+}
+
+// terms page
+
+.rd_terms_head {
+  display: flex;
+  //max-width: 1920px;
+  margin: 0 auto;
+  z-index: 2;
+  position: relative;
+  width: 100%;
+  height: 227px;
+  //min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .rd_terms_head__content {
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 83%;
+    padding: 0 30px;
+
+    .rd_terms_head__content_container {
+      h3 {
+        font-weight: 700;
+        font-size: 44px;
+        color: white;
+        margin-top: 50px;
+      }
+
+      div {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 15px;
+        color: #ffffff;
+        opacity: 0.8;
+      }
+    }
+  }
+}
+
+.rd_terms_content {
+  max-width: 1114px;
+  margin: 0 auto;
+  padding: 0 10px;
+  width: 83%;
+}
+
+.rd_terms_preFooter {
+  background-position: top;
+  background-size: cover;
+  height: 430px;
+  padding-top: 110px;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+
+  .rd_terms_preFooter_cont {
+    max-width: 1114px;
+    margin: 0 auto;
+    width: 83.333333%;
+    position: relative;
+    z-index: 1;
+
+    .rd_terms_preFooter_cont_title {
+      font-size: 14px;
+      color: #ffffff;
+      font-weight: 800;
+    }
+
+    .rd_terms_preFooter_cont_desc {
+      font-size: 14px;
+      color: #ffffff;
+
+      span {
+        text-decoration: underline;
+      }
     }
   }
 }
